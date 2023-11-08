@@ -1,0 +1,107 @@
+*{
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.App{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block{
+  height: 70vh;
+  border: 1px solid rgb(156, 156, 156);
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgb(220, 220, 220);
+  width: 80vw;
+  position: relative;
+  transition: all 1s;
+  box-shadow: 0px 0px 50px 1px rgb(126, 126, 126);
+}
+
+.blockOne{
+  z-index: 1;
+  right: -1205px;
+  transition: all 1s;
+
+}
+
+.oneTransition{
+  right:-400px;
+  z-index: 1;
+  transition: all 1s;
+
+}
+
+.blockTwo{
+  z-index: 2;
+  right: -960px;
+  transition: all 1s;
+
+}
+
+.twoTransition{
+  right:-100px;
+  z-index: 2;
+  transition: all 1s;
+
+}
+
+.blockThree{
+  z-index: 3;
+  right: -720px;
+  transition: all 1s;
+
+}
+.threeTransition{
+  right:300px;
+  z-index: 3;
+  transition: all 1s;
+
+}
+
+.blockFour{
+  z-index: 4;
+  right: -480px;
+  transition: all 1s;
+
+}
+.fourTransition{
+  right:300px;
+  z-index: 4;
+  transition: all 1s;
+
+}
+
+.blockFive{
+  z-index: 5;
+  right: -240px;
+  transition: all 1s;
+
+}
+.fiveTransition{
+  right:300px;
+  z-index: 5;
+  transition: all 1s;
+
+}
+
+h1{
+  margin: 10px;
+}
+
+.blockStyling{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.circle{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
